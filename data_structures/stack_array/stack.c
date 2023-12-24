@@ -1,5 +1,5 @@
 //
-// stack.c - A simple stack data structure
+// stack.c - A simple stack data structure using an array
 //
 // Implementation by John O'Connell
 // Email: jpoconnell24(@t)gmail(d 0 t)com
