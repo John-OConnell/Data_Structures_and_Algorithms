@@ -20,11 +20,11 @@ int unitTest0()
     queue_t *testq = create_queue(30);
     if (30 == testq->capacity)
     {
+        free_queue(testq);
         return TEST_PASS;
     }
 
     free_queue(testq);
-
     return TEST_FAIL;
 }
 
